@@ -3,3 +3,31 @@
 <title>Redirecting to https://luteorg.github.io/test-transfer-manual/</title>
 <meta http-equiv="refresh" content="0; URL=https://luteorg.github.io/test-transfer-manual/">
 <link rel="canonical" href="https://luteorg.github.io/test-transfer-manual/">
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Error 404 :(</title>
+
+    <script>
+        window.onload = function () {
+            const destination = window.location.href;
+            if (window.location.href.includes("jzohrab.github.io/test-transfer-manual/")) {
+                const redirectLocation = window.location.href.replace(
+                    "jzohrab.github.io/test-transfer-manual/",
+                    "luteorg.github.io/test-transfer-manual/"
+                );
+                document.getElementById("body").innerHTML = "redirecting ...";
+                window.location.href = redirectLocation;
+            }
+        }
+    </script>
+</head>
+
+<body id="body" style="text-align: center">
+    Page not found
+</body>
+
+</html>
